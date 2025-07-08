@@ -6,5 +6,3 @@
 - display: flexを親要素（contact-form）に指定することで、子要素（name-formやmessage-form）が横並びや中央配置など自由にレイアウトできると理解。
 - name-formやmessage-formが左寄せになるのは、親であるcontact-formへのプロパティ設定が足りていないことが原因だった。
 - marginは「左右auto」にすると親要素基準で中央に配置でき、上下は任意に調整可能。
-
----

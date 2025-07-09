@@ -1,0 +1,54 @@
+html, body, h1 {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+/* これより上は、ブラウザの見た目を整えるための設定 */
+
+header{
+  height: 50px;
+  width: 80%;
+  font-size: 25px;
+  background-color: lightgray;
+}
+
+.contents{
+  width: 80%;
+  background-color: gray;
+}
+
+h1 {
+  text-align: center;
+}
+
+.contact-form {
+  width: 600px;
+  margin: 0 auto;
+  padding: 0 0 20px 0;
+}
+
+.name_form,
+.email_form,
+.message_form {
+  width: 500px;
+  margin: 0 auto 10px;
+  padding: 15px;
+  border: 1px solid white;
+  display: block;
+}
+
+.message_form {
+  height: 150px;
+  position: relative;
+}
+
+.send {
+  width: 200px;
+  margin: 0 auto;
+  padding: 15px;
+  border: 0;
+  background-color: #c90926;
+  color: white;
+  display: block;
+}
